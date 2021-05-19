@@ -1,0 +1,129 @@
+/* Home Screen */
+.name {
+  color: #fff;
+  font-size: 25px;
+  float: left;
+  padding: 10px;
+  white-space: pre-line;
+  margin: 10px;
+}
+
+.work {
+  color: #fff;
+  font-size: medium;
+  float: right;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.userName {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.fName {
+  color: orangered;
+
+}
+
+.dev {
+  border: 20px solid orangered;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 35%;
+  left: 0;
+  margin: auto;
+  box-shadow: 0 0 30px orangered;
+  z-index: 86;
+  
+}
+
+.dev.filled {
+  background-color: transparent;
+}
+
+ .dev .main {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background: white;
+  content: url(../Images/main.png) no-repeat;
+} 
+
+/* Navbar */
+.navbar {
+  float: right;
+  width: 80px;
+  right: 0px;
+  position: fixed;
+  top: 35%;
+  bottom: 35%;
+  height: max-content;
+  transform: rotate(90deg);
+}
+
+.navbar .links {
+  margin-right: auto;
+}
+
+.navbar a {
+  margin-right: 16px;
+  text-decoration: none;
+  text-align: right;
+  padding: 6px;
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: orangered;
+}
+
+/* Social */
+
+.social .img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.social img {
+  padding: 10px;
+  margin: 10px;
+}
+
+.img .fb:hover {
+  background-color: #4267b2;
+  opacity: 0.7;
+}
+
+.img .github:hover {
+  background-color: #333;
+  opacity: 0.7;
+}
+
+.img .insta:hover {
+  background-color: #cd486b;
+  opacity: 0.7;
+}
+
+.img .linkedin:hover {
+  background-color: #0077b5;
+  opacity: 0.7;
+}
+
+.img .twitter:hover {
+  background-color: #00acee;
+  opacity: 0.7;
+}
